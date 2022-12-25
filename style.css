@@ -30,6 +30,14 @@
     color: black;
 }
 
+.btn-sb{
+    border: none;
+    font-size: 25px;
+    background-color: rgb(217, 217, 217);
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+
 .main {
     /* background-color: yellow; */
     width: 90vw;
