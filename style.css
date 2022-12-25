@@ -169,10 +169,11 @@
     font-family: sans-serif;
 }
 
-.blogItem h2{
-
+h1{
+    font-family: monospace;
 }
 
-.blogItem p{
-
+p{
+    font-family: monospace;
+    font-size: 18px;
 }
