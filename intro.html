@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="sidebar">
+        <div class="sidebar sidebarGo">
             <nav>
                 <ul>
                     <li> <a href="/"> Home </a> </li>
@@ -21,15 +21,36 @@
             </nav>
         </div>
         <div class="main">
-            <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="ham.png" alt="" width="23">
+                <img class="cross" src="cross.png" alt="" width="23">
+            </div>
+            <div class="container-secondary">
                     <h1>About Me</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, impedit eligendi. Libero pariatur, molestiae porro laboriosam quod animi. Veniam esse ad minima aspernatur ex laboriosam ratione, consectetur dolore ipsam explicabo?</p>
                     <h2>My Skills</h2>
-                    <div class="skillcontainer">
-                        
+                    <div class="skill">
+                        <div class="skillitem">Python</div>
+                        <div class="skillitem">Machine Learning</div>
+                        <div class="skillitem">Deep Learning</div>
+                        <div class="skillitem">Computer Vision</div>
+                        <div class="skillitem">Natural Language Processing</div>
                     </div>
+                    <h2>My Projects</h2>
+                    <div class="projects">
+                        <div class="project">
+                            <h4>Python Face-Swap application</h4>
+                            <p>It is fun project using OpenCV and dlib libraries where we shpa the swap the face of one preson withthe face of another using the triangel swapping. Smothening the face using seamless clone to make it look more realistic. We have create a api for the using the flask and also deployed in AWS(EC2) and their is a CICD pipeline using GitHub Actions</p>
+                        </div>
+                        <div class="project">
+                            <h4>Speech-to-text</h4>
+                            <p>This is based on transformers. Where we train a model based the spectogram of the audio file. Use encoder and decoder technique to generate the text from the given input audio file. Created a front end using flask api and deployed in AWS(EC2)</p>
+                        </div>
+                    </div>
+                    
             </div>
         </div>
     </div>
+<script src="script.js"></script>
 </body>
 </html>
